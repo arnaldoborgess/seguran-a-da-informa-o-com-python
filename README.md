@@ -54,7 +54,6 @@ Esse conceito se refere a confirmação de que o usuário é realmente quem aleg
 
 Essa garantia pode ser realizada de diversas formas, um exemplo bastante prático são os códigos de confirmação que são enviados por e-mail ou SMS após inserir uma senha. Outro exemplo é a autenticação biométrica e por senha para terá acesso a uma sala, combinando algo que você conhece com algo que você é.
 
- 
 
     5.IRRETRATABILIDADE OU NÃO REPÚDIO
 A irretratabilidade tem foco na legitimidade do autor da informação, isso funciona como uma forma de rastrear todas as ações de um indivíduo dentro do sistema de forma que não seja possível negar a autoria de uma ação.
@@ -72,3 +71,21 @@ Echo Request > Echo Replay (pergunta e resposta.) princípio de disponibilidade.
 
 ### Biblioteca OS
 Módulo que fornece uma maneira simples de usar funcionalidades que são dependentes de sistema operacional.
+
+# Biblioteca Socket
+
+Fornece acesso de baixo nível a interface de rede (placa de rede)
+
+O S.O fornece a API socket que relaciona o programa com a rede.
+
+## TCP (Transmission Control Protocol) Protocolo de controle de Transmissão.
+
+É um dos protocolos de comunicação, que dão suporte a rede global internet, verificando se os dados são enviados na sequência correta e sem erros.
+No modelo OSI ele está na camada de transoporte e ele da suporte de internet.
+Uso o princípio de segurança da informação integridade
+
+## UDP (User Datagram Protocol) Protocolo de Dataprograma de Usuário.
+
+Ele é um protocolo simples da camada de transporte que permite que a aplicação envie um datagrama dentro num  pacote IPV4 ou IPV6 a um destino, porém sem qualquer tipo de garantia que o pacote chugue corretamente.
+
+Tem o principio de disponibilidade.
